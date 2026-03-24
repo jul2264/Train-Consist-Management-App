@@ -41,6 +41,5 @@ public class main {
 
         System.out.println("\nCRUD operations(UC2) completed successfully...");
 
-
     }
 }
