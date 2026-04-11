@@ -1,8 +1,8 @@
-public class PassengerBogie {
+public class Bogie {
     private String name;
     private int capacity;
 
-    public PassengerBogie(String name, int capacity) {
+    public Bogie(String name, int capacity) {
         this.name = name;
         this.capacity = capacity;
     }
