@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package trainconsist;
+
+>>>>>>> feature/UC8
 import java.util.List;
 import java.util.ArrayList;
 
@@ -30,7 +35,10 @@ public class BogieServiceTest {
         return list;
     }
 
+<<<<<<< HEAD
     // ✅ Simple assertion helpers
+=======
+>>>>>>> feature/UC8
     private static void assertTrue(boolean condition, String testName) {
         if (condition) {
             System.out.println("✔ PASS: " + testName);
@@ -48,8 +56,11 @@ public class BogieServiceTest {
         }
     }
 
+<<<<<<< HEAD
     // ✅ Test Cases
 
+=======
+>>>>>>> feature/UC8
     static void testFilter_CapacityGreaterThanThreshold() {
         List<Bogie> result = service.filterByCapacity(getSampleBogies(), 70);
         boolean condition = result.stream().allMatch(b -> b.getCapacity() > 70);
@@ -70,7 +81,11 @@ public class BogieServiceTest {
 
     static void testFilter_MultipleBogiesMatching() {
         List<Bogie> result = service.filterByCapacity(getSampleBogies(), 50);
+<<<<<<< HEAD
         assertEquals(2, result.size(), "Multiple bogies matching");
+=======
+        assertEquals(3, result.size(), "Multiple bogies matching");
+>>>>>>> feature/UC8
     }
 
     static void testFilter_NoBogiesMatching() {

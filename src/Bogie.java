@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package trainconsist;
+
+>>>>>>> feature/UC8
 public class Bogie {
     private String name;
     private int capacity;

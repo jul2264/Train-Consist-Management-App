@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package trainconsist;
+
+>>>>>>> feature/UC8
 import java.util.List;
 import java.util.stream.Collectors;
 
