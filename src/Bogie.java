@@ -1,11 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 package trainconsist;
 
 >>>>>>> feature/UC8
 =======
 >>>>>>> feature/UC9
+=======
+>>>>>>> feature/UC11
 public class Bogie {
     private String name;
     private int capacity;
